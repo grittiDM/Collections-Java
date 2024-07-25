@@ -1,4 +1,4 @@
-package CarrinhoDeCompras;
+package OperacoeBasicas;
 
 public class Item {
     // atributo
