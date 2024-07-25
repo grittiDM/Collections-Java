@@ -7,6 +7,7 @@ public class AgendaContatos {
     // Atributo
     private Map<String, Integer> agendaContatoMap;
 
+    // Constrututor
     public AgendaContatos() {
         this.agendaContatoMap = new HashMap<>();
     }
