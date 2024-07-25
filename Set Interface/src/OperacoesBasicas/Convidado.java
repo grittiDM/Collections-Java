@@ -23,8 +23,7 @@ public class Convidado {
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
-    if (!(o instanceof Convidado)) return false;
-    Convidado convidado = (Convidado) o;
+    if (!(o instanceof Convidado convidado)) return false;
     return getCodigoConvite() == convidado.getCodigoConvite();
   }
 
